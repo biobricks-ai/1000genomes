@@ -1,0 +1,7 @@
+stages:
+  download_data:
+    cmd: Rscript R/download.R
+    deps:
+    - R/download.R
+    outs:
+    - cache/

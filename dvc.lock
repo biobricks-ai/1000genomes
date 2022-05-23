@@ -1,0 +1,13 @@
+schema: '2.0'
+stages:
+  download_data:
+    cmd: Rscript R/download.R
+    deps:
+    - path: R/download.R
+      md5: cd75cd4ab6f07231fa51326a23ac1db1
+      size: 926
+    outs:
+    - path: cache/
+      md5: 65faf7b2fb2dd0121699b90822d89973.dir
+      size: 14328625170
+      nfiles: 50
