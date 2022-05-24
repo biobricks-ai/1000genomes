@@ -1,8 +1,6 @@
 [core]
-    remote = biobricks.ai
-[cache]
-    dir = ../../../cache
-    shared = group
-    type = symlink
+  remote = biobricks.ai
 ['remote "biobricks.ai"']
-    url = s3://ins-dvc/insdvc
+  url = https://ins-dvc.s3.amazonaws.com/insdvc
+['remote "s3.biobricks.ai"']
+  url = s3://ins-dvc/insdvc
