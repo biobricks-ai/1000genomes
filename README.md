@@ -1,1 +1,2 @@
+<a href="https://github.com/biobricks-ai/1000_Genomes/actions"><img src="https://github.com/biobricks-ai/1000_Genomes/actions/workflows/bricktools-check.yaml/badge.svg?branch=main"/></a>
 # 1000_Genomes
