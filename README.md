@@ -6,11 +6,7 @@
 
 # Usage
 ```{R}
-biobricks::install_brick("1000_Genomes")
-biobricks::brick_pull("1000_Genomes")
-biobricks::brick_load("1000_Genomes")
+biobricks::install_brick("clinvar")
+biobricks::brick_pull("clinvar")
+biobricks::brick_load("clinvar")
 ```
-
-# Documentation
-
-https://cloud.google.com/life-sciences/docs/resources/public-datasets/1000-genomes
