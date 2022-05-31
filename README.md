@@ -6,7 +6,7 @@
 
 # Usage
 ```{R}
-biobricks::install_brick("clinvar")
-biobricks::brick_pull("clinvar")
-biobricks::brick_load("clinvar")
+biobricks::install_brick("1000_Genomes")
+biobricks::brick_pull("1000_Genomes")
+biobricks::brick_load("1000_Genomes")
 ```
