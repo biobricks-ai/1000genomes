@@ -7,8 +7,8 @@
 # Usage
 ```{R}
 biobricks::install_brick("1000_Genomes")
-biobricks::brick_pull("1000_Genomes)
-biobricks::brick_load("1000_Genomes)
+biobricks::brick_pull("1000_Genomes")
+biobricks::brick_load("1000_Genomes")
 ```
 
 # Documentation
