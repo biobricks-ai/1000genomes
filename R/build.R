@@ -28,7 +28,7 @@ save_parquet <- function(file) {
   dir.create(out_dir)
   # decompress gz file and split into smaller files
   gunzip_file= paste0("gunzip/", file_path_sans_ext(basename(file)))
-  command = sprintf('zcat %s | grep -v "#" | split - -l 10000 %s', file, gunzip_file)
+  command = sprintf('zcat %s | grep -v "#" | split - -l 1000000 %s', file, gunzip_file)
   system(command)
   # Convert to parquet 
   header = get_headers(file)
